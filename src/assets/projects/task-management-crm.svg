@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="tk1" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1b1b1d"/>
+      <stop offset="1" stop-color="#0c0c0d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#tk1)"/>
+  <rect x="0" y="0" width="800" height="48" fill="#161617"/>
+  <circle cx="30" cy="24" r="6" fill="#3d3d40"/>
+  <circle cx="52" cy="24" r="6" fill="#3d3d40"/>
+  <circle cx="74" cy="24" r="6" fill="#3d3d40"/>
+
+  <g>
+    <rect x="60" y="86" width="220" height="30" rx="8" fill="#232326"/>
+    <rect x="82" y="96" width="90" height="10" rx="5" fill="#3d3d40"/>
+    <rect x="300" y="86" width="220" height="30" rx="8" fill="#232326"/>
+    <rect x="322" y="96" width="90" height="10" rx="5" fill="#f4b942" fill-opacity="0.85"/>
+    <rect x="540" y="86" width="200" height="30" rx="8" fill="#232326"/>
+    <rect x="562" y="96" width="90" height="10" rx="5" fill="#3d3d40"/>
+  </g>
+
+  <g fill="#161617" stroke="#2b2b2e">
+    <rect x="60" y="132" width="220" height="90" rx="12"/>
+    <rect x="60" y="234" width="220" height="70" rx="12"/>
+    <rect x="300" y="132" width="220" height="70" rx="12"/>
+    <rect x="300" y="214" width="220" height="90" rx="12"/>
+    <rect x="300" y="316" width="220" height="70" rx="12"/>
+    <rect x="540" y="132" width="200" height="70" rx="12"/>
+  </g>
+  <g fill="#2b2b2e">
+    <rect x="80" y="152" width="120" height="10" rx="5"/>
+    <rect x="80" y="172" width="80" height="8" rx="4"/>
+    <rect x="80" y="254" width="120" height="10" rx="5"/>
+    <rect x="80" y="274" width="60" height="8" rx="4"/>
+    <rect x="320" y="152" width="120" height="10" rx="5"/>
+    <rect x="320" y="172" width="70" height="8" rx="4"/>
+  </g>
+  <g fill="#f4b942" fill-opacity="0.75">
+    <rect x="320" y="234" width="120" height="10" rx="5"/>
+    <rect x="320" y="254" width="90" height="8" rx="4"/>
+    <rect x="320" y="336" width="120" height="10" rx="5"/>
+    <rect x="320" y="356" width="60" height="8" rx="4"/>
+  </g>
+  <g fill="#2b2b2e">
+    <rect x="560" y="152" width="120" height="10" rx="5"/>
+    <rect x="560" y="172" width="80" height="8" rx="4"/>
+  </g>
+</svg>
