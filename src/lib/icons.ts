@@ -1,0 +1,52 @@
+import {
+  Briefcase,
+  Calendar,
+  Cloud,
+  Code2,
+  CreditCard,
+  Database,
+  Download,
+  ExternalLink,
+  GraduationCap,
+  Layers,
+  Mail,
+  MapPin,
+  PenTool,
+  Phone,
+  Send,
+  Server,
+  Smartphone,
+  Wrench,
+  Globe,
+  X,
+  type LucideProps,
+} from 'lucide-react'
+import type { ComponentType } from 'react'
+
+import { GithubGlyph, LinkedinGlyph } from '@/components/common/icons/SocialGlyphs'
+import type { IconKey } from '@/types/portfolio'
+
+export const ICONS: Record<IconKey, ComponentType<LucideProps>> = {
+  smartphone: Smartphone,
+  code: Code2,
+  'pen-tool': PenTool,
+  server: Server,
+  cloud: Cloud,
+  wrench: Wrench,
+  mail: Mail,
+  'map-pin': MapPin,
+  phone: Phone,
+  github: GithubGlyph,
+  linkedin: LinkedinGlyph,
+  twitter: X,
+  'external-link': ExternalLink,
+  download: Download,
+  briefcase: Briefcase,
+  'graduation-cap': GraduationCap,
+  send: Send,
+  calendar: Calendar,
+  layers: Layers,
+  database: Database,
+  globe: Globe,
+  'credit-card': CreditCard,
+}
